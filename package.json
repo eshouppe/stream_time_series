@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/eshouppe/stream_time_series/issues"
   },
-  "homepage": "https://github.com/eshouppe/stream_time_series#readme"
+  "homepage": "https://github.com/eshouppe/stream_time_series#readme",
+  "dependencies": {
+    "eslint": "^4.3.0"
+  }
 }
