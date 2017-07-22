@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Stream data from MongoDB and continuously learn time series models",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eshouppe/stream_time_series.git"
@@ -13,10 +10,9 @@
   "keywords": [
     "MongoDB",
     "streaming",
-    "time",
-    "series",
-    "machine",
-    "learning"
+    "time series",
+    "machine learning",
+    "nodeJS"
   ],
   "author": "Emily Shouppe",
   "license": "GPL-3.0",
