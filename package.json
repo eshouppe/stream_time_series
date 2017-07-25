@@ -21,9 +21,10 @@
   },
   "homepage": "https://github.com/eshouppe/stream_time_series#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
     "fast-csv": "^2.4.0",
-    "mongoose": "^4.11.3"
+    "fs": "0.0.1-security",
+    "mongoose": "^4.11.3",
+    "neataptic": "^1.3.3"
   },
   "devDependencies": {
     "eslint": "^4.3.0"

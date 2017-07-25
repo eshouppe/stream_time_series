@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var process = require("./process.js")
-var models = require("./model.js");
+var schema = require("./schema.js");
 
 
 // Open a connection to the db
@@ -12,7 +12,7 @@ conn.on('error', function (err) {
 
 conn.once('open', function () {
   // Compile schema into a model
-  var GdeltEvent = conn.model('GdeltEvent', models.eventSchema);
+  var GdeltEvent = conn.model('GdeltEvent', schema.eventSchema);
 
   // Read csvs and create doc for each row
   Promise.all([
