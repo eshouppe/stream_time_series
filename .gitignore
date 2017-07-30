@@ -59,3 +59,9 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# eslint config
+.eslintrc.json
+
+# data files
+*.csv
